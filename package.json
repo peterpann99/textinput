@@ -1,0 +1,14 @@
+{
+  "name": "peterpan-textinput",
+  "version": "1.0.0",
+  "description": "React Native Paper Custom TextInput",
+  "main": "index.tsx",
+  "types": "index.d.ts",
+  "author": {
+    "name": "Peterpan"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": ">=0.61.5"
+  }
+}
