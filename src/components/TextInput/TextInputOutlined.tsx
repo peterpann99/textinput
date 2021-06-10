@@ -108,8 +108,8 @@ class TextInputOutlined extends React.Component<ChildTextInputProps> {
         .alpha(0.54)
         .rgb()
         .string();
-      placeholderColor = colors.disabled;
-      outlineColor = isTransparent ? customOutlineColor : colors.disabled;
+      placeholderColor = '#F3F3F3';
+      outlineColor = isTransparent ? customOutlineColor : '#F3F3F3';
     } else {
       inputTextColor = colors.text;
       activeColor = error ? colors.error : colors.primary;
@@ -344,6 +344,7 @@ class TextInputOutlined extends React.Component<ChildTextInputProps> {
                     ? 'right'
                     : 'left',
                   paddingTop: 0,
+                  paddingBottom: 0,
                 },
                 Platform.OS === 'web' && { outline: 'none' },
                 adornmentStyleAdjustmentForNativeInput,
