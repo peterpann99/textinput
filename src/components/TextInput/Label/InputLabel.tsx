@@ -124,7 +124,7 @@ const InputLabel = (props: InputLabelProps) => {
           labelStyle,
           paddingOffset,
           {
-            color: error && errorColor ? errorColor : placeholderColor,
+            color: error && errorColor ? errorColor : "#9C9C9C",
             opacity: placeholderOpacity,
           },
         ]}
